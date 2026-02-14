@@ -1,0 +1,7 @@
+.DS_Store
+
+# Local desktop screenshots copied temporarily into project root.
+Screenshot*.png
+Screenshot*.jpg
+Screenshot*.jpeg
+Screenshot*.webp

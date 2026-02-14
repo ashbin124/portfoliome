@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selected projects by Ashbin Santhosh with live demos, source code links, and technology stack details.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ashbin124.github.io/portfoliome/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | Ashbin Santhosh Portfolio">
+  <meta property="og:description" content="Explore project demos and code repositories by Ashbin Santhosh.">
+  <meta property="og:url" content="https://ashbin124.github.io/portfoliome/projects.html">
+  <meta property="og:site_name" content="Ashbin Santhosh Portfolio">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Projects | Ashbin Santhosh Portfolio">
+  <meta name="twitter:description" content="Explore project demos and code repositories by Ashbin Santhosh.">
+  <title>Ashbin Santhosh | Projects</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="container navbar" aria-label="Main navigation">
+      <a class="logo" href="index.html">AS</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-page="index.html">Home</a></li>
+        <li><a href="about.html" data-page="about.html">About</a></li>
+        <li><a href="skills.html" data-page="skills.html">Skills</a></li>
+        <li><a href="projects.html" data-page="projects.html">Projects</a></li>
+        <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">Dark Mode</button>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <article class="hero-panel reveal">
+          <p class="eyebrow">Projects</p>
+          <h1>Selected Work</h1>
+          <p class="lead">Projects presented with problem, implementation, and outcome for interview review.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="projects-toolbar">
+          <button class="btn btn-secondary project-back-btn" id="project-back-btn" type="button" hidden>
+            Back to All Projects
+          </button>
+        </div>
+
+        <div class="card-grid two-col" id="projects-grid">
+          <article class="card project-card reveal">
+            <div class="project-card-head">
+              <h2>Expense Tracker Web Application</h2>
+              <button class="btn btn-secondary project-focus-btn" type="button">View Full Details</button>
+            </div>
+            <div class="project-media-grid">
+              <figure class="project-media">
+                <img
+                  src="assets/expense-tracker-main.png"
+                  alt="Expense Tracker main dashboard with balance cards, filters, and transaction list"
+                  loading="lazy"
+                >
+              </figure>
+              <figure class="project-media">
+                <img
+                  src="assets/expense-tracker-quick-add-clean.png"
+                  alt="Expense Tracker quick add panel with amount, note, and save transaction form"
+                  loading="lazy"
+                >
+              </figure>
+            </div>
+            <div class="project-proof">
+              <article class="proof-item">
+                <h3>Problem</h3>
+                <p>Manual expense tracking in notes or spreadsheets makes it hard to see current balance quickly.</p>
+              </article>
+              <article class="proof-item">
+                <h3>What I Built</h3>
+                <p>A responsive web app to add, edit, delete, and review transactions with instant totals.</p>
+              </article>
+              <article class="proof-item">
+                <h3>Result</h3>
+                <p>Users can monitor spending in one place with fast updates and persistent browser storage.</p>
+              </article>
+              <article class="proof-item">
+                <h3>My Role</h3>
+                <p>Designed and developed the complete frontend, data flow logic, and local storage integration.</p>
+              </article>
+            </div>
+            <ul class="project-highlights" aria-label="Expense Tracker key highlights">
+              <li>Real-time income, expense, and balance calculations.</li>
+              <li>Transaction CRUD workflow with immediate UI updates.</li>
+              <li>Data persistence using localStorage for repeat sessions.</li>
+            </ul>
+            <div class="tech-stack">
+              <p class="tech-heading"><strong>Tech Stack</strong></p>
+              <div class="tech-badges" aria-label="Expense Tracker technologies">
+                <span class="tech-badge"><i class="devicon-html5-plain colored" aria-hidden="true"></i>HTML</span>
+                <span class="tech-badge"><i class="devicon-css3-plain colored" aria-hidden="true"></i>CSS</span>
+                <span class="tech-badge"><i class="devicon-javascript-plain colored" aria-hidden="true"></i>JavaScript</span>
+                <span class="tech-badge"><i class="devicon-vitejs-plain colored" aria-hidden="true"></i>Vite</span>
+                <span class="tech-badge">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.8"></rect>
+                    <path d="M8 8h8v8H8z" stroke="currentColor" stroke-width="1.8"></path>
+                  </svg>
+                  LocalStorage
+                </span>
+              </div>
+              <p class="tech-heading"><strong>Language Breakdown (GitHub, Approx.)</strong></p>
+              <ul class="lang-list" aria-label="Expense Tracker language percentages">
+                <li class="lang-item">
+                  <div class="lang-meta">
+                    <span class="lang-name"><i class="devicon-javascript-plain colored" aria-hidden="true"></i>JavaScript</span>
+                    <span class="lang-percent">64.6%</span>
+                  </div>
+                  <span class="lang-bar"><span class="lang-fill lang-js" style="width: 64.6%"></span></span>
+                </li>
+                <li class="lang-item">
+                  <div class="lang-meta">
+                    <span class="lang-name"><i class="devicon-html5-plain colored" aria-hidden="true"></i>HTML</span>
+                    <span class="lang-percent">18.3%</span>
+                  </div>
+                  <span class="lang-bar"><span class="lang-fill lang-html" style="width: 18.3%"></span></span>
+                </li>
+                <li class="lang-item">
+                  <div class="lang-meta">
+                    <span class="lang-name"><i class="devicon-css3-plain colored" aria-hidden="true"></i>CSS</span>
+                    <span class="lang-percent">17.2%</span>
+                  </div>
+                  <span class="lang-bar"><span class="lang-fill lang-css" style="width: 17.2%"></span></span>
+                </li>
+              </ul>
+            </div>
+            <div class="project-outcomes" aria-label="Expense Tracker outcomes">
+              <span class="outcome-chip">Responsive UI</span>
+              <span class="outcome-chip">Client-side data persistence</span>
+              <span class="outcome-chip">Fast interaction flow</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/ashbin124/expence" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-primary" href="https://ashbin124.github.io/expence/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal">
+            <div class="project-card-head">
+              <h2>Freelancer Portfolio Website</h2>
+              <button class="btn btn-secondary project-focus-btn" type="button">View Full Details</button>
+            </div>
+            <div class="project-media-grid">
+              <figure class="project-media">
+                <img
+                  src="assets/web4u-home.png"
+                  alt="Web4U website homepage with hero section, navigation, and call-to-action buttons"
+                  loading="lazy"
+                >
+              </figure>
+              <figure class="project-media">
+                <img
+                  src="assets/web4u-contact-form.png"
+                  alt="Web4U project form section with contact details and client brief form fields"
+                  loading="lazy"
+                >
+              </figure>
+            </div>
+            <div class="project-proof">
+              <article class="proof-item">
+                <h3>Problem</h3>
+                <p>A freelancer needed a clear online presence to present services and build client trust.</p>
+              </article>
+              <article class="proof-item">
+                <h3>What I Built</h3>
+                <p>A multi-section marketing website with service-focused content and strong call-to-action flow.</p>
+              </article>
+              <article class="proof-item">
+                <h3>Result</h3>
+                <p>The site communicates offerings clearly and provides a consistent experience across devices.</p>
+              </article>
+              <article class="proof-item">
+                <h3>My Role</h3>
+                <p>Handled full implementation including layout structure, styling system, and responsive behavior.</p>
+              </article>
+            </div>
+            <ul class="project-highlights" aria-label="Freelancer website key highlights">
+              <li>Service-first page structure for faster visitor understanding.</li>
+              <li>Mobile-first responsive layout with clean visual hierarchy.</li>
+              <li>Optimized static build for quick loading and easy maintenance.</li>
+            </ul>
+            <div class="tech-stack">
+              <p class="tech-heading"><strong>Tech Stack</strong></p>
+              <div class="tech-badges" aria-label="Freelancer portfolio website technologies">
+                <span class="tech-badge"><i class="devicon-html5-plain colored" aria-hidden="true"></i>HTML</span>
+                <span class="tech-badge"><i class="devicon-css3-plain colored" aria-hidden="true"></i>CSS</span>
+                <span class="tech-badge"><i class="devicon-javascript-plain colored" aria-hidden="true"></i>JavaScript</span>
+              </div>
+              <p class="tech-heading"><strong>Language Breakdown (GitHub, Approx.)</strong></p>
+              <ul class="lang-list" aria-label="Freelancer portfolio website language percentages">
+                <li class="lang-item">
+                  <div class="lang-meta">
+                    <span class="lang-name"><i class="devicon-html5-plain colored" aria-hidden="true"></i>HTML</span>
+                    <span class="lang-percent">59.2%</span>
+                  </div>
+                  <span class="lang-bar"><span class="lang-fill lang-html" style="width: 59.2%"></span></span>
+                </li>
+                <li class="lang-item">
+                  <div class="lang-meta">
+                    <span class="lang-name"><i class="devicon-css3-plain colored" aria-hidden="true"></i>CSS</span>
+                    <span class="lang-percent">29.3%</span>
+                  </div>
+                  <span class="lang-bar"><span class="lang-fill lang-css" style="width: 29.3%"></span></span>
+                </li>
+                <li class="lang-item">
+                  <div class="lang-meta">
+                    <span class="lang-name"><i class="devicon-javascript-plain colored" aria-hidden="true"></i>JavaScript</span>
+                    <span class="lang-percent">11.5%</span>
+                  </div>
+                  <span class="lang-bar"><span class="lang-fill lang-js" style="width: 11.5%"></span></span>
+                </li>
+              </ul>
+            </div>
+            <div class="project-outcomes" aria-label="Freelancer website outcomes">
+              <span class="outcome-chip">Cross-device consistency</span>
+              <span class="outcome-chip">Clear service positioning</span>
+              <span class="outcome-chip">Maintainable static codebase</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/ashbin124/web4u-website" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-primary" href="https://ashbin124.github.io/web4u-website/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Open to full-time opportunities.</p>
+      <p>&copy; 2026 Ashbin Santhosh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
