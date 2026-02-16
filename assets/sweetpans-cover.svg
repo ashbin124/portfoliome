@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Sweet Pan's social preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff0f7"/>
+      <stop offset="50%" stop-color="#f0e4ff"/>
+      <stop offset="100%" stop-color="#ffe7b5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#df3f89"/>
+      <stop offset="55%" stop-color="#a36ae5"/>
+      <stop offset="100%" stop-color="#e6ad47"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="165" cy="112" r="120" fill="#ff76b1" fill-opacity="0.24" filter="url(#blur)"/>
+  <circle cx="1030" cy="90" r="155" fill="#bc8bff" fill-opacity="0.28" filter="url(#blur)"/>
+  <circle cx="980" cy="530" r="190" fill="#ffc971" fill-opacity="0.28" filter="url(#blur)"/>
+
+  <rect x="70" y="70" width="1060" height="490" rx="44" fill="#ffffff" fill-opacity="0.62" stroke="#efc7d9" stroke-width="2"/>
+
+  <text x="120" y="205" fill="#7a4c1f" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700">Sweet Pan's</text>
+  <text x="120" y="280" fill="url(#accent)" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700">Premium Homemade Cakes</text>
+
+  <text x="120" y="355" fill="#5c4953" font-family="Arial, sans-serif" font-size="33">Freshly baked • Custom messages • On-time delivery</text>
+  <text x="120" y="410" fill="#5c4953" font-family="Arial, sans-serif" font-size="33">Order in minutes on WhatsApp or call</text>
+
+  <g transform="translate(820 165)">
+    <ellipse cx="130" cy="205" rx="180" ry="54" fill="#d48aa5" fill-opacity="0.18"/>
+    <path d="M52 215c0-58 36-120 120-120s120 62 120 120" fill="#ffd9e7" stroke="#c9829f" stroke-width="5"/>
+    <path d="M72 214c0-45 27-94 100-94s100 49 100 94" fill="#fff2f7" stroke="#d9a4b9" stroke-width="4"/>
+    <path d="M92 212c0-32 19-67 80-67s80 35 80 67" fill="#ffffff" stroke="#e7bfd0" stroke-width="4"/>
+    <circle cx="172" cy="122" r="12" fill="#e26a98"/>
+    <circle cx="198" cy="117" r="10" fill="#bb79de"/>
+    <circle cx="146" cy="117" r="10" fill="#e9af51"/>
+  </g>
+</svg>
