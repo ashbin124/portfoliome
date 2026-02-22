@@ -1,0 +1,17 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kerala Bus Tracker Details Sheet</title>
+  <desc id="desc">Stylized bottom sheet with route and actions.</desc>
+  <rect width="1200" height="760" rx="28" fill="#F1F5F9"/>
+  <rect x="36" y="36" width="1128" height="688" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="96" y="92" width="1008" height="314" rx="20" fill="#E2E8F0"/>
+  <path d="M154 236C244 202 332 292 420 252C504 214 592 154 670 192C758 236 840 328 934 318C994 312 1042 274 1088 282" stroke="#1D4ED8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="300" cy="252" r="16" fill="#16A34A"/>
+  <circle cx="642" cy="198" r="16" fill="#D97706"/>
+  <circle cx="890" cy="318" r="16" fill="#94A3B8"/>
+  <rect x="120" y="446" width="960" height="236" rx="22" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="544" y="466" width="112" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="156" y="500" width="420" height="30" rx="10" fill="#0F172A" fill-opacity="0.12"/>
+  <rect x="156" y="546" width="240" height="18" rx="8" fill="#0F172A" fill-opacity="0.08"/>
+  <rect x="844" y="536" width="188" height="34" rx="16" fill="#DCFCE7"/>
+  <rect x="844" y="586" width="188" height="34" rx="16" fill="#E2E8F0"/>
+</svg>
