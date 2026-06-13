@@ -301,3 +301,24 @@ if (projectsGrid && projectBackButton) {
     });
   }
 }
+
+
+// Floating dock: copy email to clipboard
+const copyEmailBtn = document.querySelector(".copy-email");
+
+if (copyEmailBtn) {
+  copyEmailBtn.addEventListener("click", async () => {
+    const email = copyEmailBtn.dataset.email;
+
+    try {
+      await navigator.clipboard.writeText(email);
+      copyEmailBtn.classList.add("copied");
+
+      setTimeout(() => {
+        copyEmailBtn.classList.remove("copied");
+      }, 1200);
+    } catch (err) {
+      console.log("Copy email failed", err);
+    }
+  });
+}

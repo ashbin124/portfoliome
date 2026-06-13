@@ -23,6 +23,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Floating Left Contact Bar -->
+  <div class="floating-contact">
+    <a href="https://github.com/ashbin124" target="_blank" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="https://wa.me/916235188973" target="_blank" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a href="mailto:ashbinsanthosh2@gmail.com" aria-label="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <button type="button" class="copy-email" aria-label="Copy Email">
+      <i class="fa-solid fa-copy"></i>
+    </button>
+  </div>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header" id="top">
     <nav class="container navbar" aria-label="Main navigation">
@@ -143,5 +164,20 @@
   </footer>
  
   <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.querySelector(".copy-email");
+      if (btn) {
+        btn.addEventListener("click", async () => {
+          const email = "ashbinsanthosh2@gmail.com";
+          try {
+            await navigator.clipboard.writeText(email);
+            btn.classList.add("copied");
+            setTimeout(() => btn.classList.remove("copied"), 1200);
+          } catch (e) {}
+        });
+      }
+    });
+  </script>
 </body>
 </html>
