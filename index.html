@@ -29,7 +29,7 @@
       <i class="fa-brands fa-github"></i>
     </a>
 
-    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+    <a href="https://www.linkedin.com/in/ashbin-santhosh-2145b1280" target="_blank" aria-label="LinkedIn">
       <i class="fa-brands fa-linkedin"></i>
     </a>
 
@@ -40,7 +40,7 @@
     <a href="mailto:ashbinsanthosh2@gmail.com" aria-label="Email">
       <i class="fa-solid fa-envelope"></i>
     </a>
-    <button type="button" class="copy-email" aria-label="Copy Email">
+    <button type="button" class="copy-email" data-email="ashbinsanthosh2@gmail.com" aria-label="Copy Email">
       <i class="fa-solid fa-copy"></i>
     </button>
   </div>
@@ -168,20 +168,5 @@
   </footer>
  
   <script src="script.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const btn = document.querySelector(".copy-email");
-      if (btn) {
-        btn.addEventListener("click", async () => {
-          const email = "ashbinsanthosh2@gmail.com";
-          try {
-            await navigator.clipboard.writeText(email);
-            btn.classList.add("copied");
-            setTimeout(() => btn.classList.remove("copied"), 1200);
-          } catch (e) {}
-        });
-      }
-    });
-  </script>
 </body>
 </html>

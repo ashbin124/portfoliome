@@ -122,7 +122,19 @@ function syncThemeLabel() {
   }
 
   const isDark = body.classList.contains("dark");
-  themeToggle.textContent = isDark ? "Light Mode" : "Dark Mode";
+  const icon = themeToggle.querySelector("i");
+
+  if (icon) {
+    icon.className = isDark
+      ? "fa-solid fa-sun"
+      : "fa-solid fa-moon";
+  }
+
+  themeToggle.setAttribute(
+    "aria-label",
+    isDark ? "Switch to light mode" : "Switch to dark mode"
+  );
+
   themeToggle.setAttribute("aria-pressed", String(isDark));
 }
 
@@ -308,7 +320,7 @@ const copyEmailBtn = document.querySelector(".copy-email");
 
 if (copyEmailBtn) {
   copyEmailBtn.addEventListener("click", async () => {
-    const email = copyEmailBtn.dataset.email;
+    const email = copyEmailBtn.dataset.email || "ashbinsanthosh2@gmail.com";
 
     try {
       await navigator.clipboard.writeText(email);
